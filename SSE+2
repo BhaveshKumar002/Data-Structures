@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+	int a,b,c;
+	clrscr();
+	printf("Enter your SSE Level and +2 Level Percentage\n");
+	scanf("%d%d",&a,&b);
+	printf("SSE Level Percentage = %d\n",a);
+	printf("+2 Level Percentage = %d\n",b);
+	if(a>=60&&b>=60)
+	printf("Congratulations! You Got First Division\n");
+	if(a<=60&&b>=60)
+	printf("You haven't got first division\n");
+	if(a>=60&&b<=60)
+	printf("You haven't got first division\n");
+	if(a>=60&&b>=60)
+	printf("You have failed\n");
+	getch();
+}
